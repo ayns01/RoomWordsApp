@@ -6,6 +6,7 @@ import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
 // Entity: Each word is represented by an entity in the DB.
+//         Room can create DB table from this.
 @Entity(tableName = "word_table")
 public class Word {
 
