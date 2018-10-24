@@ -12,6 +12,7 @@ public abstract class WordRoomDatabase extends RoomDatabase{
 
     public abstract WordDao wordDao();
 
+    // Use Singleton
     private static WordRoomDatabase INSTANCE;
 
     public static WordRoomDatabase getDatabase(final Context context) {
